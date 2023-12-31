@@ -1,0 +1,51 @@
+.storyCard {
+  width: 250px;
+}
+
+.storyCard__img {
+  height: 230px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.storyCard h4 {
+  color: var(--heading-color);
+  font-family: var(--text-font);
+  font-size: 19px;
+  font-weight: 700;
+  margin-block: 13px;
+}
+
+.storyCard p {
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.storyCard a {
+  color: #fb8f1d;
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .storyCard {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .storyCard {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .storyCard {
+    width: 350px;
+  }
+}

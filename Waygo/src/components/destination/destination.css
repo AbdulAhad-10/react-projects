@@ -1,0 +1,37 @@
+.destination__card-img {
+  max-width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.destination__card-text {
+  position: relative;
+  bottom: 54px;
+  border-radius: 0px 6px 0px 0px;
+  background: #fff;
+  width: 120px;
+  height: 50px;
+  padding-left: 3px;
+  padding-top: 6px;
+}
+
+.destination__card-text h4 {
+  color: var(--heading-color);
+  font-family: var(--text-font);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.destination__card-text h6 {
+  color: #80918e;
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 550px) {
+  .destination__card-img {
+    max-width: 200px;
+    height: 250px;
+  }
+}

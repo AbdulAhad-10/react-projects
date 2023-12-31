@@ -1,0 +1,50 @@
+:root {
+  --text-font: "Inter", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --text-color: #7d7987;
+  --heading-color: #202336;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin: 40px 100px;
+}
+
+.button {
+  height: 45px;
+  width: 130px;
+  font-family: var(--text-font);
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #fb8f1d;
+  border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin: 30px 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    margin: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    margin: 30px 30px;
+  }
+}

@@ -1,0 +1,47 @@
+.inputs {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 35px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.inputs > div {
+  width: 180px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #afb0b9;
+  text-align: center;
+}
+
+.inputs__select {
+  border: none;
+  color: #4a4c53;
+  font-family: var(--text-font);
+  font-size: 15px;
+  margin: 15px;
+}
+
+.inputs__select:focus {
+  border: none;
+}
+
+/*For Medium size screens*/
+@media screen and (max-width: 1024px) {
+  .inputs {
+    display: flex;
+    gap: 10px;
+    margin-block: 40px;
+  }
+  .inputs > div {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .inputs {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+  }
+}

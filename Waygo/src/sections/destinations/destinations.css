@@ -1,0 +1,35 @@
+.destinations__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.destinations__text h2 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.destinations__text a {
+  color: #fb8f1d;
+  font-family: var(--text-font);
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.destinations__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .destinations__container {
+    justify-content: flex-start;
+    gap: 30px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+}

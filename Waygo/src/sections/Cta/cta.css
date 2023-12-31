@@ -1,0 +1,46 @@
+.cta__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 200px;
+  gap: 100px;
+}
+
+.cta__container-text > h2 {
+  color: #000;
+  font-family: var(--heading-font);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta__container-text > p {
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cta__container {
+    flex-direction: column-reverse;
+    margin-block: 150px;
+  }
+
+  .cta__container-img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta__container {
+    gap: 50px;
+    margin-block: 100px;
+  }
+  .cta__container-img {
+    height: 300px;
+    width: 300px;
+  }
+}
